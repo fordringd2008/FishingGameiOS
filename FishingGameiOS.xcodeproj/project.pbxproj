@@ -18,6 +18,8 @@
 		ADACF81A1FEAB233000C65A5 /* FishingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF8191FEAB233000C65A5 /* FishingView.m */; };
 		ADACF81D1FEAB43E000C65A5 /* FishHookView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF81C1FEAB43E000C65A5 /* FishHookView.m */; };
 		ADACF8201FEABB35000C65A5 /* FishModelImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF81F1FEABB35000C65A5 /* FishModelImageView.m */; };
+		ADACF8231FEB50D7000C65A5 /* HHShootButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF8221FEB50D7000C65A5 /* HHShootButton.m */; };
+		ADACF8261FEB5191000C65A5 /* HHWinMoneyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF8251FEB5191000C65A5 /* HHWinMoneyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,10 @@
 		ADACF81C1FEAB43E000C65A5 /* FishHookView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishHookView.m; sourceTree = "<group>"; };
 		ADACF81E1FEABB35000C65A5 /* FishModelImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FishModelImageView.h; sourceTree = "<group>"; };
 		ADACF81F1FEABB35000C65A5 /* FishModelImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishModelImageView.m; sourceTree = "<group>"; };
+		ADACF8211FEB50D7000C65A5 /* HHShootButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHShootButton.h; sourceTree = "<group>"; };
+		ADACF8221FEB50D7000C65A5 /* HHShootButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHShootButton.m; sourceTree = "<group>"; };
+		ADACF8241FEB5191000C65A5 /* HHWinMoneyLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHWinMoneyLabel.h; sourceTree = "<group>"; };
+		ADACF8251FEB5191000C65A5 /* HHWinMoneyLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHWinMoneyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				ADACF81C1FEAB43E000C65A5 /* FishHookView.m */,
 				ADACF81E1FEABB35000C65A5 /* FishModelImageView.h */,
 				ADACF81F1FEABB35000C65A5 /* FishModelImageView.m */,
+				ADACF8211FEB50D7000C65A5 /* HHShootButton.h */,
+				ADACF8221FEB50D7000C65A5 /* HHShootButton.m */,
+				ADACF8241FEB5191000C65A5 /* HHWinMoneyLabel.h */,
+				ADACF8251FEB5191000C65A5 /* HHWinMoneyLabel.m */,
 			);
 			path = FishView;
 			sourceTree = "<group>";
@@ -185,9 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADACF8231FEB50D7000C65A5 /* HHShootButton.m in Sources */,
 				ADACF8201FEABB35000C65A5 /* FishModelImageView.m in Sources */,
 				ADACF81A1FEAB233000C65A5 /* FishingView.m in Sources */,
 				ADACF81D1FEAB43E000C65A5 /* FishHookView.m in Sources */,
+				ADACF8261FEB5191000C65A5 /* HHWinMoneyLabel.m in Sources */,
 				ADACF7F91FEAAB6E000C65A5 /* ViewController.m in Sources */,
 				ADACF8111FEAB0BA000C65A5 /* FishViewController.m in Sources */,
 				ADACF8041FEAAB6E000C65A5 /* main.m in Sources */,

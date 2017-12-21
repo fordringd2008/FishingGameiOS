@@ -34,6 +34,14 @@
 #define FONT_SYSTEM_BOLD(x)          [UIFont boldSystemFontOfSize:x*UIRate]
 
 
+//Debug信息,用printf解决真机调试打印不出来的问题
+#ifdef DEBUG
+# define DLog(format, ...) printf("[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+# define DLog(...);
+#endif
+
+
 /*********通知********/
 #define NotificationFishHookStop @"NotificationFishHookStop" //钓鱼垂钓状态
 #define NotificationFishHookMove @"NotificationFishHookMove" //不可钓鱼状态
