@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FishViewController.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 30)];
+    label.center = self.view.center;
+    label.text = @"点击屏幕去钓鱼🎣";
+    [self.view addSubview:label];
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [self.navigationController pushViewController:[[FishViewController alloc] init] animated:YES];
+    
 }
 
 

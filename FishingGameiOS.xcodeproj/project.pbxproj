@@ -13,6 +13,11 @@
 		ADACF7FE1FEAAB6E000C65A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADACF7FD1FEAAB6E000C65A5 /* Assets.xcassets */; };
 		ADACF8011FEAAB6E000C65A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADACF7FF1FEAAB6E000C65A5 /* LaunchScreen.storyboard */; };
 		ADACF8041FEAAB6E000C65A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF8031FEAAB6E000C65A5 /* main.m */; };
+		ADACF80E1FEAB07D000C65A5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF80D1FEAB07D000C65A5 /* UIView+Extension.m */; };
+		ADACF8111FEAB0BA000C65A5 /* FishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF8101FEAB0BA000C65A5 /* FishViewController.m */; };
+		ADACF81A1FEAB233000C65A5 /* FishingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF8191FEAB233000C65A5 /* FishingView.m */; };
+		ADACF81D1FEAB43E000C65A5 /* FishHookView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF81C1FEAB43E000C65A5 /* FishHookView.m */; };
+		ADACF8201FEABB35000C65A5 /* FishModelImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACF81F1FEABB35000C65A5 /* FishModelImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,17 @@
 		ADACF8001FEAAB6E000C65A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADACF8021FEAAB6E000C65A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADACF8031FEAAB6E000C65A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADACF80B1FEAB00C000C65A5 /* GlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
+		ADACF80C1FEAB07D000C65A5 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		ADACF80D1FEAB07D000C65A5 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		ADACF80F1FEAB0BA000C65A5 /* FishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FishViewController.h; sourceTree = "<group>"; };
+		ADACF8101FEAB0BA000C65A5 /* FishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishViewController.m; sourceTree = "<group>"; };
+		ADACF8181FEAB233000C65A5 /* FishingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FishingView.h; sourceTree = "<group>"; };
+		ADACF8191FEAB233000C65A5 /* FishingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishingView.m; sourceTree = "<group>"; };
+		ADACF81B1FEAB43E000C65A5 /* FishHookView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FishHookView.h; sourceTree = "<group>"; };
+		ADACF81C1FEAB43E000C65A5 /* FishHookView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishHookView.m; sourceTree = "<group>"; };
+		ADACF81E1FEABB35000C65A5 /* FishModelImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FishModelImageView.h; sourceTree = "<group>"; };
+		ADACF81F1FEABB35000C65A5 /* FishModelImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishModelImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,12 @@
 		ADACF7F31FEAAB6E000C65A5 /* FishingGameiOS */ = {
 			isa = PBXGroup;
 			children = (
+				ADACF80A1FEAAFF5000C65A5 /* Utils */,
 				ADACF7F41FEAAB6E000C65A5 /* AppDelegate.h */,
 				ADACF7F51FEAAB6E000C65A5 /* AppDelegate.m */,
+				ADACF8141FEAB170000C65A5 /* FishView */,
+				ADACF80F1FEAB0BA000C65A5 /* FishViewController.h */,
+				ADACF8101FEAB0BA000C65A5 /* FishViewController.m */,
 				ADACF7F71FEAAB6E000C65A5 /* ViewController.h */,
 				ADACF7F81FEAAB6E000C65A5 /* ViewController.m */,
 				ADACF7FA1FEAAB6E000C65A5 /* Main.storyboard */,
@@ -69,6 +89,29 @@
 				ADACF8031FEAAB6E000C65A5 /* main.m */,
 			);
 			path = FishingGameiOS;
+			sourceTree = "<group>";
+		};
+		ADACF80A1FEAAFF5000C65A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ADACF80B1FEAB00C000C65A5 /* GlobalDefine.h */,
+				ADACF80C1FEAB07D000C65A5 /* UIView+Extension.h */,
+				ADACF80D1FEAB07D000C65A5 /* UIView+Extension.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ADACF8141FEAB170000C65A5 /* FishView */ = {
+			isa = PBXGroup;
+			children = (
+				ADACF8181FEAB233000C65A5 /* FishingView.h */,
+				ADACF8191FEAB233000C65A5 /* FishingView.m */,
+				ADACF81B1FEAB43E000C65A5 /* FishHookView.h */,
+				ADACF81C1FEAB43E000C65A5 /* FishHookView.m */,
+				ADACF81E1FEABB35000C65A5 /* FishModelImageView.h */,
+				ADACF81F1FEABB35000C65A5 /* FishModelImageView.m */,
+			);
+			path = FishView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADACF8201FEABB35000C65A5 /* FishModelImageView.m in Sources */,
+				ADACF81A1FEAB233000C65A5 /* FishingView.m in Sources */,
+				ADACF81D1FEAB43E000C65A5 /* FishHookView.m in Sources */,
 				ADACF7F91FEAAB6E000C65A5 /* ViewController.m in Sources */,
+				ADACF8111FEAB0BA000C65A5 /* FishViewController.m in Sources */,
 				ADACF8041FEAAB6E000C65A5 /* main.m in Sources */,
+				ADACF80E1FEAB07D000C65A5 /* UIView+Extension.m in Sources */,
 				ADACF7F61FEAAB6E000C65A5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
